@@ -1,0 +1,35 @@
+.titulo{
+	font-family: monospace;
+	font-style: italic;
+	text-align: center;
+	color:#1e4415
+}
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.flexbox a {
+	line-height: 50px;
+	width: 28%;
+	margin: 10px;
+}
+
+.flexbox img {
+	width: 100%;
+	border:10px solid #449831;
+}
+
+.flexbox img:hover {
+	
+	border:10px solid #449831;
+	opacity: 50%;
+	
+	background-color: black;
+}
+
+body {
+	background: #2b8b98;
+	width: 100%;
+}
